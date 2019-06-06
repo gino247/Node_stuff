@@ -1,0 +1,26 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node_scratch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "node_scratch": "ts-node-dev --respawn --transpileOnly ./node_scratch.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.0.5",
+    "ts-node-dev": "^1.0.0-pre.39",
+    "typescript": "^3.5.1"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.1.0",
+    "eslint": "^5.13.0",
+    "eslint-config-google": "^0.12.0",
+    "marked": "^0.6.2",
+    "nodemon": "^1.18.10",
+    "ts-node-dev": "^1.0.0-pre.32"
+  }
+}
